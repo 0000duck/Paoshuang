@@ -21,13 +21,31 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_19F1C652219D4B9094B757A3636F980C"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_32020CD402C64D9F9CC2F3638F6E23FF"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
+        "MsmKey" = "8:_387832DC779D4F259C81DCAE49955C3E"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_3C30CD7DC0D343C78774CCE6F4876457"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_3CFF7AAB1CC0473FB82BC25B6F9C6D92"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -99,12 +117,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_F404F8E481BF423EA40C1030A55C0AAB"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_F712984F68A54FEC95F60BDAF886AC1B"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -127,6 +139,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
         "Release"
         {
@@ -215,6 +235,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_19F1C652219D4B9094B757A3636F980C"
+            {
+            "SourcePath" = "8:C:\\Windows\\System32\\msiexec.exe"
+            "TargetName" = "8:msiexec.exe"
+            "Tag" = "8:"
+            "Folder" = "8:_F2A9A6FBD3A64AF98F18FFE32FFD2F65"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_32020CD402C64D9F9CC2F3638F6E23FF"
             {
             "SourcePath" = "8:D:\\OneDrive\\大漠插件\\【大漠上传】7.1738\\7.1738\\jryx.bmp"
@@ -235,12 +275,52 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_387832DC779D4F259C81DCAE49955C3E"
+            {
+            "SourcePath" = "8:..\\..\\..\\QianNuQiaoYan\\un_128.ico"
+            "TargetName" = "8:un_128.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_F2A9A6FBD3A64AF98F18FFE32FFD2F65"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_3C30CD7DC0D343C78774CCE6F4876457"
             {
             "SourcePath" = "8:D:\\OneDrive\\大漠插件\\【大漠上传】7.1738\\7.1738\\loginUI.bmp"
             "TargetName" = "8:loginUI.bmp"
             "Tag" = "8:"
             "Folder" = "8:_0998B278FC224AC88EB2FF575B07B187"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_3CFF7AAB1CC0473FB82BC25B6F9C6D92"
+            {
+            "SourcePath" = "8:C:\\feidu\\Release_exe\\feidusoft.exe"
+            "TargetName" = "8:feidusoft.exe"
+            "Tag" = "8:"
+            "Folder" = "8:_F2A9A6FBD3A64AF98F18FFE32FFD2F65"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -475,26 +555,6 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_F404F8E481BF423EA40C1030A55C0AAB"
-            {
-            "SourcePath" = "8:C:\\feidu\\Release_exe\\feidusoft.exe"
-            "TargetName" = "8:feidusoft.exe"
-            "Tag" = "8:"
-            "Folder" = "8:_F2A9A6FBD3A64AF98F18FFE32FFD2F65"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_F712984F68A54FEC95F60BDAF886AC1B"
             {
             "SourcePath" = "8:D:\\OneDrive\\大漠插件\\【大漠上传】7.1738\\7.1738\\price.txt"
@@ -594,7 +654,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:倩女跑商"
         "ProductCode" = "8:{E3F89720-0463-4D70-81CE-7713108D50CE}"
-        "PackageCode" = "8:{707C78FE-4A4C-4767-BB32-3305BD6170E2}"
+        "PackageCode" = "8:{0794FFB1-0DD5-4C74-A884-03C20619B3FB}"
         "UpgradeCode" = "8:{84AA9DB7-FEC3-4EC5-8DB2-9162DA6CA2CE}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -714,7 +774,21 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_D8ADF7397A154BBCA410A59FF2432CB9"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_3878226B737E487686D803AD64191437"
+            {
+            "Name" = "8:卸载 倩女跑商"
+            "Arguments" = "8:/x {E3F89720-0463-4D70-81CE-7713108D50CE}"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_19F1C652219D4B9094B757A3636F980C"
+            "Folder" = "8:_0F062484B20C4C64B3CB9D78559A997A"
+            "WorkingFolder" = "8:_F2A9A6FBD3A64AF98F18FFE32FFD2F65"
+            "Icon" = "8:_387832DC779D4F259C81DCAE49955C3E"
+            "Feature" = "8:"
+            }
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_CDBA2198D05547108DD7879D86CE7E17"
             {
             "Name" = "8:倩女跑商"
             "Arguments" = "8:"
@@ -722,7 +796,7 @@
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_F404F8E481BF423EA40C1030A55C0AAB"
+            "Target" = "8:_3CFF7AAB1CC0473FB82BC25B6F9C6D92"
             "Folder" = "8:_0F062484B20C4C64B3CB9D78559A997A"
             "WorkingFolder" = "8:_F2A9A6FBD3A64AF98F18FFE32FFD2F65"
             "Icon" = "8:_C84EA7F3A5824923A53628F692DDC0C1"

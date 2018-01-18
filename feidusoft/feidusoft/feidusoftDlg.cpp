@@ -621,8 +621,7 @@ isExit:
 		goto isExit;
 	}
 reJryx:
-	bmpDir.Format(_T("%s%s"),pathConfig,_T("jryx.bmp"));
-	dm[id].FindPic(0,0,800,600,bmpDir,_T("101010"),0.95,0,&x,&y);
+	dm[id].FindPic(0,0,800,600,_T("jryx.bmp"),_T("101010"),0.95,0,&x,&y);
 	if (x.intVal>=0 && y.intVal>=0)
 	{
 		//确认角色已载入成功
